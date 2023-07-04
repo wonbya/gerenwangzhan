@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人博客</title>
+    <style>
+            .wenzhang{
+              height: 250px;
+              width: 45%;
+              border-radius: 20px;
+              margin-top: 60px;
+              box-shadow: 1px 1px 1px 2px  RGB(211,211,211);
+              border: 3px solid  rgb(211,211,211);
+            }
+            .flex {
+              display: flex;
+            }
+            .annu {
+                display: inline-block;
+                background: #69c;
+                color: #fff;
+                padding: 5px 10px;
+                text-align: center;
+                width: 50px;
+            
+            }
+            /* * {
+              border: 1px solid black;
+            } */
+            body {
+              height: 100vh;
+              margin: 0;
+              background-color:RGB(246,246,246);
+              flex-direction: column;
+            }
+            .zhiti{
+              font-family:cursive;
+            }
+            .jiange{
+                margin: 3px;
+            }
+    </style>
+  </head>
+  <body class="flex">
+    <!-- 顶部栏 -->
+    <div class="flex" style="height: 60px; background-color: white;border: 2px solid black;">
+      <img
+        src="tou.png"
+        alt="头像"
+        width="46px"
+        height="46px"
+        style="margin: 4px"
+      />
+      <div
+        class="flex"
+        style="flex: 1; align-items: center; flex-direction: column"
+      >
+        <p class="zhiti" style="margin: 1px">欢迎来到：</p>
+        <h2 class="zhiti" style="margin: 2px; color: coral">
+          <b>编程learning的个人小站</b>
+        </h2>
+      </div>
+    </div>
+    <!-- 内容部分 -->
+    <div class="flex" style="flex: 1">
+      <!-- 侧边栏 -->
+      <div class="flex" style="width: 250px; flex-direction: column;border: 1px solid black;">
+        <h3 class="zhiti" style="text-align: center;"><b>您似乎还未登录</b></h3>
+        <div class="flex" style="flex-direction: column;align-items: center;border: 2px solid purple;">
+            <a class="annu jiange" href="骗你你又信">登录</a>
+            <a class="annu jiange" href="骗你你又信">注册</a>  
+        </div>
+        <p style="margin:7px ;">●<a href="#penduan1">part one</a></p>
+        <p style="margin:7px ;">●<a href="#penduan1">part two</a></p>
+        <p style="margin:7px ;">●<a href="#penduan1">part three</a></p>
+        <p style="margin:7px ;">●<a href="#penduan1">part four</a></p>
+        <p style="margin:7px ;">●<a href="#penduan1">part five</a></p>
+        <p style="margin:7px ;">●<a href="#penduan1">part six</a></p>
+        <p style="margin: 0;margin-left: 7px;"><b>. . . . . .</b></p>
+      </div>
+      <!-- 右边内容部分 -->
+      <div class="flex" style="flex: 1;flex-direction: column;">
+        <div class="flex" style="flex: 1;flex-direction: column;align-items: center;overflow: auto;">
+          <div class="flex wenzhang" ><p>没有</p></div>
+          <div class="flex wenzhang" ><p>没有</p></div>
+          <div class="flex wenzhang" ><p>没有</p></div>
+          <div class="flex wenzhang" ><p>没有</p></div>
+          <div class="flex wenzhang" ><p>没有</p></div>
+          <div class="flex wenzhang" ><p>没有</p></div>
+          <div class="flex wenzhang" ><p>没有</p></div>
+        </div>
+        <!-- 底部栏 -->
+        <div class="flex" style="height: 120px;flex-direction: column;align-items: center;border: 2px solid black;">
+            <a href="还没有啦" style="margin: 8px;">责任声明</a> 
+            <a href="还没有啦" style="margin: 8px;">公安备案号:XXX</a> 
+            <p style="margin-top: 18px;"><b>本网站仅为个人博客，不含任何违法内容</b></p> 
+            
+        </div>
+      
+    </div>
+    </div>
+  </body>
+</html>
